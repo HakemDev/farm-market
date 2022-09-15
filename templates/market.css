@@ -1,0 +1,92 @@
+.top_de_top {
+    width: 100%;
+    height: 100%;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D976C, #93F9B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D976C, #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+
+.header_emoji{
+    font-size:4rem;
+}
+.header_emoji_left{
+    padding-top: 1rem;;
+}
+.header_emoji_right{
+    padding-bottom: 5px;
+    width: auto;
+}
+.header_title{
+    transform:skewX(15deg);
+    padding:2rem;
+    font-weight: bold;
+    font-size:3rem;
+    font-family: Papyrus, fantasy;
+    color: azure;
+}
+.parent{
+    margin-top:2rem;
+    transform: skewY(-3deg);
+
+}
+.body_content{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lin{
+    
+    text-align: center;
+    border: 1px solid #ddd;
+    transform:skewX(-15deg);
+    padding: 0.5rem;
+    background-color: aliceblue;
+}
+.name_element{
+    font-family: Papyrus, fantasy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:white;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D976C, #93F9B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D976C, #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 1rem;
+
+}
+.detail{
+    color:white;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D976C, #93F9B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D976C, #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.val_nut{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+.stock_emoji{
+    font-size:1.5rem;
+}
+.price,.detail{
+    padding-top: 1.2rem;
+
+}
+
+.stock,.price,.detail{ 
+    font-weight: bold;
+}
+.type_element{
+    font-size:2rem
+}
+.body_content:hover
+    {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    }

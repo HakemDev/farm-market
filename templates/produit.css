@@ -1,0 +1,104 @@
+.top_de_top {
+    width: 100%;
+    height: 100%;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D976C, #93F9B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D976C, #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+
+
+
+.header_title{
+    transform:skewX(15deg);
+    padding:2rem;
+    font-weight: bold;
+    font-size:3rem;
+    font-family:Megrim;
+    color: azure;
+}
+.parent{
+    margin-top:2rem;
+    transform: skewY(-3deg);
+
+}
+.emoji_ima{
+   
+    margin-left: auto;
+    margin-right: 1rem;
+    bottom: 5rem;
+}
+span{
+    font-size: 5rem;
+    
+}
+.child_çne_two{
+    position: relative;
+    right: 4rem;
+    
+}
+.product_pres{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(87, 156, 116);
+
+    border-radius: 14px;
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1D976C, #93F9B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1D976C, #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position:relative;
+}
+
+.child_one{
+    position: absolute;
+    top:-4rem;
+    margin-left:80.5%;
+    cursor: pointer;
+}
+.aaaaa:hover
+    {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    }
+.product_title{
+    text-align: center;
+    padding:1rem;
+    font-weight: bolder;
+    font-size:3rem;
+	font-family: Megrim; 
+    color: rgb(102, 238, 124);
+    background-color: azure;
+    border: 1px solid rgb(87, 156, 116);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.child_three{
+    text-align: center;
+    padding:1rem;
+    font-weight: bolder;
+    background-color: azure;
+    font-size:1.1rem;
+    cursor: pointer;
+}
+.back{
+    position: absolute;
+    top:-2rem;
+    left: 1rem;
+   
+
+}
+.link{
+    font-weight: bold;
+
+    text-decoration: none;
+    color: rgb(84, 133, 27);
+    font-size:1.2rem;
+}
+.info{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
